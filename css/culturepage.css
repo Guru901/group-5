@@ -1,0 +1,115 @@
+#head-text > h1 {
+  color: rgb(0, 0, 0);
+}
+
+.elems {
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.elem {
+  width: 95%;
+  background: var(--secondary);
+  border-radius: 2rem;
+  max-width: var(--max-width);
+  flex-direction: column;
+  padding: 2rem 6rem;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.elem > h1 {
+  font-size: 2.4rem;
+}
+
+.elem > p {
+  font-size: 1.8rem;
+}
+
+.cousine-cont {
+  width: 100%;
+  padding: 0 5rem;
+}
+
+#cousines {
+  background: var(--secondary);
+  margin-top: 10.5rem;
+  max-width: var(--max-width);
+  width: 100%;
+  border-radius: 2rem;
+  padding-bottom: 4rem;
+}
+
+.allcousines {
+  flex-direction: column;
+  gap: 8rem;
+}
+
+.cousine {
+  display: flex;
+  gap: 10rem;
+  background: white;
+  width: 80%;
+  border-radius: 2rem;
+  padding: 5rem 6rem;
+  max-width: var(--max-width);
+}
+
+.cousine-txt {
+  width: 45rem;
+}
+
+.cousine img {
+  width: 30rem;
+}
+
+.cousine h1 {
+  font-size: 2.4rem;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.cousine p {
+  font-size: 1.7rem;
+}
+
+.cousine-txt button {
+  width: 21rem;
+  height: 4rem;
+  font-size: 1.4rem;
+  color: white;
+  background: var(--accent);
+  border-radius: 80px;
+  border: none;
+  margin-top: 2rem;
+  border: 1px solid var(--accent);
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+}
+
+.cousine-txt button:hover {
+  color: var(--accent);
+  background: white;
+  border: 1px solid var(--accent);
+}
+
+.deserts {
+  background: var(--secondary);
+  width: 95%;
+  height: 100%;
+  flex-direction: column;
+  border-radius: 2rem;
+  padding: 4rem 6rem;
+  gap: 5rem;
+  max-width: var(--max-width);
+}
+
+.elem-4 {
+  width: 80%;
+  max-width: 80%;
+  background: white;
+}
+
+.elem-3 {
+  padding: 8rem;
+}

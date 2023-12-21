@@ -1,0 +1,161 @@
+.rj-cont {
+  width: 100%;
+  padding: 0 5rem;
+}
+
+#rjs {
+  background: var(--secondary);
+  margin-top: 10.5rem;
+  max-width: var(--max-width);
+  width: 100%;
+  border-radius: 2rem;
+  padding-bottom: 4rem;
+}
+
+.elem-heading {
+  font-size: 3.5rem;
+  padding: 8rem 0;
+  text-align: center;
+}
+
+.allrjs {
+  flex-direction: column;
+  gap: 8rem;
+}
+
+.rj {
+  display: flex;
+  gap: 10rem;
+}
+
+.rj-txt {
+  width: 45rem;
+}
+
+.rj img {
+  width: 40rem;
+}
+
+.rj h1 {
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.rj p {
+  font-size: 1.7rem;
+}
+
+.rj-txt button {
+  width: 21rem;
+  height: 4rem;
+  font-size: 1.4rem;
+  color: white;
+  background: var(--accent);
+  border-radius: 80px;
+  border: none;
+  margin-top: 2rem;
+  border: 1px solid var(--accent);
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+}
+
+.rj-txt button:hover {
+  color: var(--accent);
+  background: white;
+  border: 1px solid var(--accent);
+}
+
+#features {
+  width: 92%;
+  padding: 0 5rem;
+  background: var(--secondary);
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 4rem;
+  gap: 3rem;
+  max-width: var(--max-width);
+  border-radius: 2rem;
+}
+
+#features h1 {
+  padding: 3.5rem;
+  text-align: left;
+}
+
+#features p:nth-child(2) {
+  font-size: 2rem;
+  padding: 0 2rem;
+}
+
+#features p:nth-child(4) {
+  padding: 0 2rem;
+  font-size: 2rem;
+}
+
+#features button {
+  margin-top: 2rem;
+  width: 30rem;
+  margin: 0 2rem;
+  height: 4rem;
+  border-radius: 80px;
+  border: none;
+  color: white;
+  font-size: 1.6rem;
+  cursor: pointer;
+  background: var(--accent);
+}
+
+.allfeatures {
+  gap: 6rem;
+  align-items: flex-start;
+}
+
+.feature > img {
+  width: 23rem;
+}
+
+.faq {
+  background: var(--secondary);
+  gap: 19rem;
+  margin-top: 6rem;
+  height: 50rem;
+  padding: 2rem;
+  width: 92%;
+  max-width: var(--max-width);
+  border-radius: 2rem;
+}
+
+#faq-left {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+#faq-right h1 {
+  font-size: 3.2rem;
+}
+
+.faq-ques {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+  background-color: #fff;
+  border-radius: 80px;
+
+  height: 5.5rem;
+}
+
+.faq-ques h2 {
+  max-width: 50rem;
+  padding: 1rem;
+  font-size: 1.55rem;
+}
+
+.faq-ques button {
+  background-color: #fff;
+  border: none;
+  font-size: 1.55rem;
+  margin-right: 2rem;
+}

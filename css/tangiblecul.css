@@ -1,0 +1,66 @@
+.fort-cont {
+  width: 100%;
+  padding: 0 5rem;
+}
+
+#forts {
+  background: var(--secondary);
+  margin-top: 10.5rem;
+  max-width: var(--max-width);
+  width: 100%;
+  border-radius: 2rem;
+  padding-bottom: 4rem;
+}
+
+.allforts {
+  flex-direction: column;
+  gap: 8rem;
+}
+
+.fort {
+  display: flex;
+  gap: 10rem;
+  background: white;
+  width: 80%;
+  border-radius: 2rem;
+  padding: 5rem 6rem;
+  max-width: var(--max-width);
+}
+
+.fort-txt {
+  width: 45rem;
+}
+
+.fort img {
+  width: 30rem;
+}
+
+.fort h1 {
+  font-size: 2.4rem;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.fort p {
+  font-size: 1.7rem;
+}
+
+.fort-txt button {
+  width: 21rem;
+  height: 4rem;
+  font-size: 1.4rem;
+  color: white;
+  background: var(--accent);
+  border-radius: 80px;
+  border: none;
+  margin-top: 2rem;
+  border: 1px solid var(--accent);
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+}
+
+.fort-txt button:hover {
+  color: var(--accent);
+  background: white;
+  border: 1px solid var(--accent);
+}

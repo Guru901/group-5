@@ -1,0 +1,43 @@
+.head-p {
+  text-align: center;
+  color: #cec6c6;
+  width: var(--max-width);
+}
+
+#culture {
+  margin-top: 5rem;
+  width: 95%;
+  max-width: var(--max-width);
+  border-radius: 2rem;
+  flex-direction: column;
+  background: var(--secondary);
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 45rem);
+  grid-template-rows: repeat(2, 65rem);
+  row-gap: 6rem;
+  column-gap: 15rem;
+}
+
+.card img {
+  width: 45rem;
+}
+
+.card p {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.img {
+  position: relative;
+}
+
+.img-text {
+  position: absolute;
+  bottom: 0;
+  font-size: 1.6rem;
+  padding: 1rem 2rem;
+  font-weight: 500;
+}

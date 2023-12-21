@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+:root {
+  --primary: #ead3c1;
+  --accent: #ad7667;
+  --secondary: #fdede9;
+  --max-width: 190rem;
+}
+
+.absolute-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  font-size: 10px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  scroll-padding-top: 5rem;
+}
+
+*::selection {
+  background: var(--accent);
+  color: white;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+}
+
+.cursor {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: var(--accent);
+  position: absolute;
+  transform: translate(-50%, -50%);
+  transition: all ease-out 0.2s;
+  z-index: 99;
+  pointer-events: none;
+}
+
+/* Nav is from here ----------------------------------------------------------------------------- */
+
+#nav {
+  width: 100%;
+  background: var(--primary);
+  gap: 50rem;
+  max-width: var(--max-width);
+  padding: 1.5rem 2.3rem;
+}
+
+.title {
+  font-size: 2.4rem;
+}
+
+.links {
+  gap: 4rem;
+}
+
+.menu-items {
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: #000;
+}
+
+#main-image {
+  width: 100%;
+  position: relative;
+  height: 55rem;
+  overflow: clip;
+}
+
+#main-image img {
+  object-fit: cover;
+  width: 100%;
+  max-width: var(--max-width);
+  height: 95%;
+  position: absolute;
+}
+
+#head-text {
+  position: relative;
+  margin-top: 35rem;
+  flex-direction: column;
+}
+
+#head-text > h1 {
+  font-size: 6rem;
+  font-weight: 500;
+  color: white;
+}
+
+#head-text > p {
+  font-size: 2rem;
+  font-weight: 400;
+  color: white;
+  max-width: var(--max-width);
+}
+
+.elem-heading {
+  font-size: 2rem;
+  font-weight: 400;
+  padding: 8rem 5rem;
+  text-align: center;
+  max-width: var(--max-width);
+}
+
+.nav-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 90rem;
+  margin-top: 10rem;
+  margin-bottom: 3rem;
+}
+
+.nav-btns button {
+  padding: 1rem;
+  border-radius: 20px;
+  width: 18rem;
+  border: none;
+  border: 1px solid var(--accent);
+  color: var(--secondary);
+  cursor: pointer;
+  font-size: 1.8rem;
+  background-color: var(--accent);
+}
+
+.nav-btns button:hover {
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  background-color: var(--secondary);
+}

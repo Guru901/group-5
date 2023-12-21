@@ -1,0 +1,63 @@
+.container > h1 {
+  font-size: 19.5rem;
+  font-weight: 500;
+}
+
+.container {
+  padding-bottom: 5%;
+  flex-direction: column;
+  background: var(--primary);
+  padding-top: 5%;
+}
+
+.container > img {
+  width: 90%;
+  max-width: var(--max-width);
+  border-radius: 2rem;
+}
+
+.cult-container {
+  flex-direction: column;
+  gap: 3rem;
+  margin-top: 5rem;
+}
+
+.cult {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.cult > img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 2rem;
+}
+
+.cult > h1 {
+  font-size: 2.4rem;
+  color: #222;
+}
+.cult > p {
+  font-size: inter;
+  font-size: 2rem;
+  color: gray;
+}
+
+.sm {
+  width: 30rem !important;
+}
+
+.bg {
+  width: 70rem !important;
+}
+
+.first-cont,
+.second-cont {
+  gap: 6rem;
+}
+
+.second-cont {
+  margin-bottom: 10rem;
+}
